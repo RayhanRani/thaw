@@ -1,0 +1,10 @@
+node_modules
+dist
+.DS_Store
+*.local
+.claude/
+.env*
+# Large or generated demo files
+demo/*.mp4
+demo/voice/
+docs/paper/*.html

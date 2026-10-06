@@ -1,0 +1,381 @@
+@import "tailwindcss" source(".");
+
+/* The site is always dark: one dark blue page and one set of tokens for every page. */
+:root {
+  color-scheme: dark;
+  /* Dark blue page, icy-blue glass cards, one sky-blue accent, muted status colors. */
+  --page: #080b12;
+  --surface: #0f141d;
+  --surface-2: #141a25;
+  --surface-3: #1c2330;
+  --line: #1e2531;
+  --line-2: #2a3240;
+  --ink: #f2f4f8;
+  --ink-2: #94a3b8;
+  --muted: #64748b;
+  --axis: #2a3240;
+
+  /* The icy sky blue is the one accent: labels, switches, highlights and the shine. */
+  --accent: #38bdf8;
+  --accent-ink: #7dd3fc;
+  --accent-soft: rgba(56, 189, 248, 0.12);
+  --bone: #7dd3fc;
+  /* Today's reserve in slate, Thaw in ice, money back with the merchant in green. */
+  --today: #64748b;
+  --ice-a: #1d4f73;
+  --ice-b: #38bdf8;
+  --released: #3da57f;
+  --sage: #5cc497;
+  --sand: #c9a24f;
+  --clay: #e5575b;
+  /* Categorical slots, validated for CVD and normal-vision separation on the dark surface. */
+  --s1: #2f95dc;
+  --s2: #b08a3c;
+  --s3: #249a85;
+  --s4: #8a72dd;
+  --mist: var(--s1);
+  --rose: var(--s3);
+  --lilac: var(--s4);
+  --flat: #6b7487;
+  --floor: #3a4558;
+  --good: #3da57f;
+  --good-ink: #5cc497;
+  --good-soft: rgba(61, 165, 127, 0.12);
+  --warn: #c9a24f;
+  --warn-soft: rgba(201, 162, 79, 0.12);
+  --critical: #e5575b;
+  --critical-soft: rgba(229, 87, 91, 0.1);
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  --shadow-lg: 0 16px 40px -16px rgba(0, 0, 0, 0.7);
+}
+
+@theme inline {
+  --font-sans: "Inter Variable", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  --color-page: var(--page);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-surface-3: var(--surface-3);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-line-2: var(--line-2);
+  --color-axis: var(--axis);
+  --color-bone: var(--bone);
+  --color-today: var(--today);
+  --color-sage: var(--sage);
+  --color-sand: var(--sand);
+  --color-clay: var(--clay);
+  --color-mist: var(--mist);
+  --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink);
+  --color-accent-soft: var(--accent-soft);
+  --color-good: var(--good);
+  --color-good-ink: var(--good-ink);
+  --color-good-soft: var(--good-soft);
+  --color-warn: var(--warn);
+  --color-warn-soft: var(--warn-soft);
+  --color-critical: var(--critical);
+  --color-critical-soft: var(--critical-soft);
+}
+
+html,
+body {
+  background: var(--page);
+}
+body {
+  margin: 0;
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-size: 15px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: "cv11", "ss01";
+}
+::selection {
+  background: rgba(56, 189, 248, 0.3);
+}
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+.grid > * {
+  min-width: 0;
+}
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 8px;
+}
+
+/* ---- Layout: one container and one section rhythm for every page. ---- */
+.wrap {
+  max-width: 1160px;
+  margin-inline: auto;
+  padding-inline: 20px;
+}
+.section {
+  padding-block: 80px;
+}
+@media (min-width: 768px) {
+  .wrap {
+    padding-inline: 24px;
+  }
+  .section {
+    padding-block: 112px;
+  }
+}
+
+/* ---- Surfaces: one solid icy-tinted card, and a panel that sits inside a card. ---- */
+.card,
+.glass {
+  position: relative;
+  min-width: 0;
+  /* Solid, so nothing behind a card shows through, with a faint icy tint on top. */
+  background:
+    linear-gradient(180deg, rgba(56, 189, 248, 0.07), rgba(56, 189, 248, 0.02)),
+    #0b111b;
+  border: 1px solid rgba(125, 211, 252, 0.16);
+  border-radius: 18px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+}
+/* An icy highlight along the top edge of every card. */
+.card::before,
+.glass::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 12%;
+  right: 12%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(125, 211, 252, 0.45), transparent);
+  pointer-events: none;
+}
+.panel {
+  background: rgba(56, 189, 248, 0.04);
+  border: 1px solid rgba(125, 211, 252, 0.12);
+  border-radius: 14px;
+}
+.icon-tile,
+.ice-tile {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(125, 211, 252, 0.2);
+  background: rgba(56, 189, 248, 0.1);
+  color: #7dd3fc;
+}
+.glow-ice {
+  box-shadow:
+    0 0 0 1px rgba(125, 211, 252, 0.18),
+    0 10px 30px -12px rgba(56, 189, 248, 0.6);
+}
+
+/* ---- Type: every page uses these, so the pages read the same. ---- */
+.t-display {
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 1.02;
+  letter-spacing: -0.04em;
+  color: var(--ink);
+}
+.t-h1 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.08;
+  letter-spacing: -0.03em;
+  color: var(--ink);
+}
+.t-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent-ink);
+}
+.t-eyebrow::before {
+  content: '';
+  width: 18px;
+  height: 1px;
+  background: var(--accent);
+}
+.t-label {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.t-title {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+}
+.t-body {
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--ink-2);
+}
+.t-small {
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--ink-2);
+}
+.t-figure {
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: -0.035em;
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+}
+@media (min-width: 640px) {
+  .t-display {
+    font-size: 60px;
+  }
+  .t-h1 {
+    font-size: 46px;
+  }
+  .t-figure {
+    font-size: 52px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .t-display {
+    font-size: 54px;
+  }
+}
+@media (min-width: 1200px) {
+  .t-display {
+    font-size: 64px;
+  }
+}
+
+/* Icy gradient text with a slow shine moving across it. */
+.text-sheen,
+.text-gradient {
+  background: linear-gradient(100deg, #e0f2fe 0%, #7dd3fc 30%, #38bdf8 50%, #7dd3fc 70%, #e0f2fe 100%);
+  background-size: 200% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: text-shine 7s linear infinite;
+}
+@keyframes text-shine {
+  from {
+    background-position: 200% 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+
+/* ---- Fills: today's reserve in slate, Thaw in shining ice, money back in green. ---- */
+.fill-today {
+  background: var(--today);
+}
+.fill-thaw,
+.ice-fill {
+  background: linear-gradient(90deg, var(--ice-a), var(--ice-b));
+}
+.fill-back,
+.thawed-fill {
+  background: var(--released);
+}
+.frost {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.28) 1px, transparent 1.2px);
+  background-size: 7px 7px;
+}
+.shimmer,
+.sheen-bar {
+  background-image: linear-gradient(110deg, transparent 30%, rgba(255, 255, 255, 0.35) 50%, transparent 70%);
+  background-size: 200% 100%;
+  animation: shimmer 3.2s linear infinite;
+}
+@keyframes shimmer {
+  from {
+    background-position: -200% 0;
+  }
+  to {
+    background-position: 200% 0;
+  }
+}
+
+/* ---- Range slider: bone fill up to the thumb. Set --fill on the element. ---- */
+.range {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 6px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--accent) var(--fill, 50%), var(--surface-3) var(--fill, 50%));
+  cursor: pointer;
+}
+.range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #fff;
+  border: 5px solid var(--accent);
+  box-shadow: 0 0 0 4px rgba(56, 189, 248, 0.18), 0 4px 12px rgba(0, 0, 0, 0.5);
+  transition: transform 0.15s;
+}
+.range::-webkit-slider-thumb:hover {
+  transform: scale(1.1);
+}
+.range::-moz-range-thumb {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #fff;
+  border: 5px solid var(--accent);
+}
+input[type='range']:not(.range) {
+  accent-color: var(--accent);
+}
+
+/* ---- Page background: one flat dark blue, the same on every page. ---- */
+.site-bg {
+  background: var(--page);
+}
+.dot-grid,
+.grid-lines {
+  background-image:
+    linear-gradient(rgba(148, 163, 184, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(148, 163, 184, 0.06) 1px, transparent 1px);
+  background-size: 56px 56px;
+  mask-image: radial-gradient(ellipse at 50% 0%, black 30%, transparent 75%);
+}
+
+/* ---- Motion ---- */
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.animate-fade-up {
+  animation: fade-up 0.5s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+@media (prefers-reduced-motion: reduce) {
+  .animate-fade-up,
+  .text-sheen,
+  .text-gradient,
+  .sheen-bar,
+  .shimmer {
+    animation: none;
+  }
+  * {
+    transition-duration: 0s !important;
+  }
+}

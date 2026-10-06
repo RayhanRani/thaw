@@ -1,0 +1,2313 @@
+{
+  "generatedAt": "2026-10-05",
+  "figures": {
+    "seed": 20261004,
+    "merchants": 300,
+    "orders": 670285,
+    "frontier": {
+      "flat": [
+        {
+          "label": "Flat 2%",
+          "x": 1787,
+          "y": 6.571
+        },
+        {
+          "label": "Flat 4%",
+          "x": 3574,
+          "y": 4.232
+        },
+        {
+          "label": "Flat 6%",
+          "x": 5361,
+          "y": 2.323
+        },
+        {
+          "label": "Flat 8%",
+          "x": 7148,
+          "y": 1.079
+        },
+        {
+          "label": "Flat 10%",
+          "x": 8936,
+          "y": 0.213
+        },
+        {
+          "label": "Flat 12%",
+          "x": 10723,
+          "y": 0.044
+        },
+        {
+          "label": "Flat 15%",
+          "x": 13403,
+          "y": 0
+        },
+        {
+          "label": "Flat 20%",
+          "x": 17871,
+          "y": 0
+        },
+        {
+          "label": "Flat 25%",
+          "x": 22339,
+          "y": 0
+        }
+      ],
+      "thaw": [
+        {
+          "label": "Thaw, no floor",
+          "x": 2348,
+          "y": 0.483
+        },
+        {
+          "label": "Thaw, floor 10%",
+          "x": 2369,
+          "y": 0.476
+        },
+        {
+          "label": "Thaw, floor 20%",
+          "x": 3042,
+          "y": 0.338
+        },
+        {
+          "label": "Thaw, floor 30%",
+          "x": 4270,
+          "y": 0.235
+        },
+        {
+          "label": "Thaw, floor 40%",
+          "x": 5368,
+          "y": 0.213
+        },
+        {
+          "label": "Thaw, floor 50%",
+          "x": 6276,
+          "y": 0.213
+        },
+        {
+          "label": "Thaw, floor 75%",
+          "x": 7590,
+          "y": 0.213
+        },
+        {
+          "label": "Thaw, floor 100%",
+          "x": 8094,
+          "y": 0.213
+        }
+      ]
+    },
+    "control": {
+      "label": "Flat 10% for 90 days",
+      "x": 8936,
+      "y": 0.213
+    },
+    "pilot": {
+      "label": "Thaw",
+      "x": 4270,
+      "y": 0.235
+    },
+    "noFloor": {
+      "label": "Thaw, no floor",
+      "x": 2348,
+      "y": 0.483
+    },
+    "releaseCurve": [
+      {
+        "age": 0,
+        "thaw": 0.688,
+        "flat": 1
+      },
+      {
+        "age": 1,
+        "thaw": 0.676,
+        "flat": 1
+      },
+      {
+        "age": 2,
+        "thaw": 0.654,
+        "flat": 1
+      },
+      {
+        "age": 3,
+        "thaw": 0.621,
+        "flat": 1
+      },
+      {
+        "age": 4,
+        "thaw": 0.582,
+        "flat": 1
+      },
+      {
+        "age": 5,
+        "thaw": 0.547,
+        "flat": 1
+      },
+      {
+        "age": 6,
+        "thaw": 0.518,
+        "flat": 1
+      },
+      {
+        "age": 7,
+        "thaw": 0.495,
+        "flat": 1
+      },
+      {
+        "age": 8,
+        "thaw": 0.484,
+        "flat": 1
+      },
+      {
+        "age": 9,
+        "thaw": 0.474,
+        "flat": 1
+      },
+      {
+        "age": 10,
+        "thaw": 0.465,
+        "flat": 1
+      },
+      {
+        "age": 11,
+        "thaw": 0.455,
+        "flat": 1
+      },
+      {
+        "age": 12,
+        "thaw": 0.446,
+        "flat": 1
+      },
+      {
+        "age": 13,
+        "thaw": 0.436,
+        "flat": 1
+      },
+      {
+        "age": 14,
+        "thaw": 0.427,
+        "flat": 1
+      },
+      {
+        "age": 15,
+        "thaw": 0.417,
+        "flat": 1
+      },
+      {
+        "age": 16,
+        "thaw": 0.408,
+        "flat": 1
+      },
+      {
+        "age": 17,
+        "thaw": 0.398,
+        "flat": 1
+      },
+      {
+        "age": 18,
+        "thaw": 0.389,
+        "flat": 1
+      },
+      {
+        "age": 19,
+        "thaw": 0.38,
+        "flat": 1
+      },
+      {
+        "age": 20,
+        "thaw": 0.37,
+        "flat": 1
+      },
+      {
+        "age": 21,
+        "thaw": 0.361,
+        "flat": 1
+      },
+      {
+        "age": 22,
+        "thaw": 0.352,
+        "flat": 1
+      },
+      {
+        "age": 23,
+        "thaw": 0.344,
+        "flat": 1
+      },
+      {
+        "age": 24,
+        "thaw": 0.335,
+        "flat": 1
+      },
+      {
+        "age": 25,
+        "thaw": 0.326,
+        "flat": 1
+      },
+      {
+        "age": 26,
+        "thaw": 0.319,
+        "flat": 1
+      },
+      {
+        "age": 27,
+        "thaw": 0.311,
+        "flat": 1
+      },
+      {
+        "age": 28,
+        "thaw": 0.303,
+        "flat": 1
+      },
+      {
+        "age": 29,
+        "thaw": 0.296,
+        "flat": 1
+      },
+      {
+        "age": 30,
+        "thaw": 0.288,
+        "flat": 1
+      },
+      {
+        "age": 31,
+        "thaw": 0.281,
+        "flat": 1
+      },
+      {
+        "age": 32,
+        "thaw": 0.275,
+        "flat": 1
+      },
+      {
+        "age": 33,
+        "thaw": 0.268,
+        "flat": 1
+      },
+      {
+        "age": 34,
+        "thaw": 0.261,
+        "flat": 1
+      },
+      {
+        "age": 35,
+        "thaw": 0.255,
+        "flat": 1
+      },
+      {
+        "age": 36,
+        "thaw": 0.249,
+        "flat": 1
+      },
+      {
+        "age": 37,
+        "thaw": 0.243,
+        "flat": 1
+      },
+      {
+        "age": 38,
+        "thaw": 0.237,
+        "flat": 1
+      },
+      {
+        "age": 39,
+        "thaw": 0.232,
+        "flat": 1
+      },
+      {
+        "age": 40,
+        "thaw": 0.226,
+        "flat": 1
+      },
+      {
+        "age": 41,
+        "thaw": 0.221,
+        "flat": 1
+      },
+      {
+        "age": 42,
+        "thaw": 0.216,
+        "flat": 1
+      },
+      {
+        "age": 43,
+        "thaw": 0.211,
+        "flat": 1
+      },
+      {
+        "age": 44,
+        "thaw": 0.206,
+        "flat": 1
+      },
+      {
+        "age": 45,
+        "thaw": 0.202,
+        "flat": 1
+      },
+      {
+        "age": 46,
+        "thaw": 0.197,
+        "flat": 1
+      },
+      {
+        "age": 47,
+        "thaw": 0.193,
+        "flat": 1
+      },
+      {
+        "age": 48,
+        "thaw": 0.189,
+        "flat": 1
+      },
+      {
+        "age": 49,
+        "thaw": 0.185,
+        "flat": 1
+      },
+      {
+        "age": 50,
+        "thaw": 0.182,
+        "flat": 1
+      },
+      {
+        "age": 51,
+        "thaw": 0.178,
+        "flat": 1
+      },
+      {
+        "age": 52,
+        "thaw": 0.175,
+        "flat": 1
+      },
+      {
+        "age": 53,
+        "thaw": 0.171,
+        "flat": 1
+      },
+      {
+        "age": 54,
+        "thaw": 0.168,
+        "flat": 1
+      },
+      {
+        "age": 55,
+        "thaw": 0.165,
+        "flat": 1
+      },
+      {
+        "age": 56,
+        "thaw": 0.162,
+        "flat": 1
+      },
+      {
+        "age": 57,
+        "thaw": 0.159,
+        "flat": 1
+      },
+      {
+        "age": 58,
+        "thaw": 0.157,
+        "flat": 1
+      },
+      {
+        "age": 59,
+        "thaw": 0.154,
+        "flat": 1
+      },
+      {
+        "age": 60,
+        "thaw": 0.152,
+        "flat": 1
+      },
+      {
+        "age": 61,
+        "thaw": 0.149,
+        "flat": 1
+      },
+      {
+        "age": 62,
+        "thaw": 0.147,
+        "flat": 1
+      },
+      {
+        "age": 63,
+        "thaw": 0.145,
+        "flat": 1
+      },
+      {
+        "age": 64,
+        "thaw": 0.143,
+        "flat": 1
+      },
+      {
+        "age": 65,
+        "thaw": 0.141,
+        "flat": 1
+      },
+      {
+        "age": 66,
+        "thaw": 0.139,
+        "flat": 1
+      },
+      {
+        "age": 67,
+        "thaw": 0.138,
+        "flat": 1
+      },
+      {
+        "age": 68,
+        "thaw": 0.136,
+        "flat": 1
+      },
+      {
+        "age": 69,
+        "thaw": 0.134,
+        "flat": 1
+      },
+      {
+        "age": 70,
+        "thaw": 0.133,
+        "flat": 1
+      },
+      {
+        "age": 71,
+        "thaw": 0.131,
+        "flat": 1
+      },
+      {
+        "age": 72,
+        "thaw": 0.13,
+        "flat": 1
+      },
+      {
+        "age": 73,
+        "thaw": 0.129,
+        "flat": 1
+      },
+      {
+        "age": 74,
+        "thaw": 0.128,
+        "flat": 1
+      },
+      {
+        "age": 75,
+        "thaw": 0.126,
+        "flat": 1
+      },
+      {
+        "age": 76,
+        "thaw": 0.125,
+        "flat": 1
+      },
+      {
+        "age": 77,
+        "thaw": 0.124,
+        "flat": 1
+      },
+      {
+        "age": 78,
+        "thaw": 0.123,
+        "flat": 1
+      },
+      {
+        "age": 79,
+        "thaw": 0.122,
+        "flat": 1
+      },
+      {
+        "age": 80,
+        "thaw": 0.121,
+        "flat": 1
+      },
+      {
+        "age": 81,
+        "thaw": 0.12,
+        "flat": 1
+      },
+      {
+        "age": 82,
+        "thaw": 0.12,
+        "flat": 1
+      },
+      {
+        "age": 83,
+        "thaw": 0.119,
+        "flat": 1
+      },
+      {
+        "age": 84,
+        "thaw": 0.118,
+        "flat": 1
+      },
+      {
+        "age": 85,
+        "thaw": 0.117,
+        "flat": 1
+      },
+      {
+        "age": 86,
+        "thaw": 0.117,
+        "flat": 1
+      },
+      {
+        "age": 87,
+        "thaw": 0.116,
+        "flat": 1
+      },
+      {
+        "age": 88,
+        "thaw": 0.116,
+        "flat": 1
+      },
+      {
+        "age": 89,
+        "thaw": 0.115,
+        "flat": 1
+      },
+      {
+        "age": 90,
+        "thaw": 0.01,
+        "flat": 0
+      }
+    ],
+    "medianDaysThaw": 7,
+    "earlyReleaseShare": 0.884914959527449
+  },
+  "defaultResult": {
+    "world": {
+      "seed": 20261004,
+      "merchants": 300,
+      "days": 365,
+      "meanOrdersPerDay": 6,
+      "categoryMix": {
+        "physical": 0.5,
+        "digital": 0.15,
+        "subscription": 0.25,
+        "service": 0.1
+      },
+      "regionMix": {
+        "US": 0.5,
+        "EU": 0.25,
+        "UK": 0.1,
+        "APAC": 0.15
+      },
+      "newMerchantShare": 0.35,
+      "aovByCategory": {
+        "physical": 6500,
+        "digital": 3000,
+        "subscription": 3500,
+        "service": 12000
+      },
+      "authRateByRegion": {
+        "US": [
+          0.25,
+          0.65
+        ],
+        "EU": [
+          0.85,
+          0.97
+        ],
+        "UK": [
+          0.75,
+          0.95
+        ],
+        "APAC": [
+          0.3,
+          0.7
+        ]
+      },
+      "proofRateByCategory": {
+        "physical": [
+          0.5,
+          0.98
+        ],
+        "digital": [
+          0.3,
+          0.95
+        ],
+        "subscription": [
+          0.4,
+          0.95
+        ],
+        "service": [
+          0.1,
+          0.6
+        ]
+      },
+      "carrierVerifiableShare": 0.93,
+      "baseDisputeRate": {
+        "fraud": 0.0035,
+        "not_received": 0.0025,
+        "not_as_described": 0.002,
+        "credit_not_processed": 0.0008
+      },
+      "relativeRisk": {
+        "authenticatedFraud": 0.5,
+        "deliveredNotReceived": 0.2,
+        "usedNotReceived": 0.15,
+        "usedNotAsDescribed": 0.6
+      },
+      "lossGivenDispute": {
+        "fraudAuthenticated": 0.05,
+        "fraudUnauthenticated": 0.9,
+        "notReceivedWithProof": 0.3,
+        "notReceivedNoProof": 0.85,
+        "notAsDescribed": 0.6,
+        "credit": 0.8
+      },
+      "disputeDelay": {
+        "fraud": {
+          "shape": 1.4,
+          "scaleDays": 28
+        },
+        "not_received": {
+          "shape": 1.8,
+          "scaleDays": 34
+        },
+        "not_as_described": {
+          "shape": 1.5,
+          "scaleDays": 40
+        },
+        "credit_not_processed": {
+          "shape": 1.3,
+          "scaleDays": 30
+        }
+      },
+      "annualInsolvency": {
+        "new": 0.05,
+        "established": 0.02
+      },
+      "annualBustOut": {
+        "new": 0.025,
+        "established": 0.003
+      },
+      "insolvencyUnfulfilledDays": 21,
+      "insolvencyUnfulfilledShare": 0.75,
+      "unfulfilledDisputeRate": 0.3,
+      "bustOutRampDays": 30,
+      "bustOutRampMultiple": 3,
+      "bustOutUnfulfilledShare": 0.85,
+      "bustOutGamesProofShare": 0.3,
+      "seasoningStart": 0.5,
+      "seasoningOrders": 100
+    },
+    "treatmentConfig": {
+      "rate": 0.1,
+      "windowDays": 90,
+      "floorMode": "unproven_volume",
+      "floorShare": 0.3,
+      "killSwitchSignals": true,
+      "seasoning": true,
+      "newMerchantsStayFlat": false,
+      "modelName": "Thaw pilot model",
+      "modelVersion": "thaw-0.1.0"
+    },
+    "merchants": 300,
+    "orders": 670285,
+    "volume": 3489821065,
+    "proofCoverage": 0.8711443639645823,
+    "disputes": {
+      "count": 5904,
+      "lostAmount": 23353784
+    },
+    "failures": {
+      "insolvent": 11,
+      "bustOut": 5,
+      "gamedBustOut": 0
+    },
+    "killSwitch": {
+      "failing": 10,
+      "failingTotal": 16,
+      "healthy": 2,
+      "medianDaysBeforeFailure": 9,
+      "bySignal": {
+        "volume_spike": {
+          "failing": 2,
+          "healthy": 1
+        },
+        "proof_coverage_drop": {
+          "failing": 6,
+          "healthy": 0
+        },
+        "dispute_spike": {
+          "failing": 2,
+          "healthy": 1
+        }
+      }
+    },
+    "control": {
+      "label": "Flat 10% for 90 days",
+      "kind": "flat",
+      "rate": 0.1,
+      "floorMode": "none",
+      "floorShare": 0,
+      "volume": 3489821065,
+      "dollarDaysPer1k": 8935.531880543564,
+      "lossBps": 0.21324904232589925,
+      "loss": 74420.09999999998,
+      "shortfallEvents": 12
+    },
+    "treatment": {
+      "label": "Thaw",
+      "kind": "thaw",
+      "rate": 0.1,
+      "floorMode": "unproven_volume",
+      "floorShare": 0.3,
+      "volume": 3489821065,
+      "dollarDaysPer1k": 4269.625544891506,
+      "lossBps": 0.2346716306499227,
+      "loss": 81896.19999999998,
+      "shortfallEvents": 15
+    },
+    "treatmentNoFloor": {
+      "label": "Thaw, no floor",
+      "kind": "thaw",
+      "rate": 0.1,
+      "floorMode": "none",
+      "floorShare": 0,
+      "volume": 3489821065,
+      "dollarDaysPer1k": 2348.1392123475143,
+      "lossBps": 0.483171054436059,
+      "loss": 168618.05237692205,
+      "shortfallEvents": 37
+    },
+    "frontier": {
+      "flat": [
+        {
+          "label": "Flat 2%",
+          "kind": "flat",
+          "rate": 0.02,
+          "floorMode": "none",
+          "floorShare": 0,
+          "volume": 3489821065,
+          "dollarDaysPer1k": 1787.1063761087134,
+          "lossBps": 6.571301557548481,
+          "loss": 2293266.66,
+          "shortfallEvents": 378
+        },
+        {
+          "label": "Flat 4%",
+          "kind": "flat",
+          "rate": 0.04,
+          "floorMode": "none",
+          "floorShare": 0,
+          "volume": 3489821065,
+          "dollarDaysPer1k": 3574.212752217427,
+          "lossBps": 4.232357626622327,
+          "loss": 1477017.08,
+          "shortfallEvents": 244
+        },
+        {
+          "label": "Flat 6%",
+          "kind": "flat",
+          "rate": 0.06,
+          "floorMode": "none",
+          "floorShare": 0,
+          "volume": 3489821065,
+          "dollarDaysPer1k": 5361.319128326135,
+          "lossBps": 2.3226230941442267,
+          "loss": 810553.9000000001,
+          "shortfallEvents": 142
+        },
+        {
+          "label": "Flat 8%",
+          "kind": "flat",
+          "rate": 0.08,
+          "floorMode": "none",
+          "floorShare": 0,
+          "volume": 3489821065,
+          "dollarDaysPer1k": 7148.425504434854,
+          "lossBps": 1.078709174448748,
+          "loss": 376450.20000000007,
+          "shortfallEvents": 74
+        },
+        {
+          "label": "Flat 10%",
+          "kind": "flat",
+          "rate": 0.1,
+          "floorMode": "none",
+          "floorShare": 0,
+          "volume": 3489821065,
+          "dollarDaysPer1k": 8935.531880543564,
+          "lossBps": 0.21324904232589925,
+          "loss": 74420.09999999998,
+          "shortfallEvents": 12
+        },
+        {
+          "label": "Flat 12%",
+          "kind": "flat",
+          "rate": 0.12,
+          "floorMode": "none",
+          "floorShare": 0,
+          "volume": 3489821065,
+          "dollarDaysPer1k": 10722.63825665227,
+          "lossBps": 0.04419538914096157,
+          "loss": 15423.399999999994,
+          "shortfallEvents": 4
+        },
+        {
+          "label": "Flat 15%",
+          "kind": "flat",
+          "rate": 0.15,
+          "floorMode": "none",
+          "floorShare": 0,
+          "volume": 3489821065,
+          "dollarDaysPer1k": 13403.29782081535,
+          "lossBps": 0,
+          "loss": 0,
+          "shortfallEvents": 0
+        },
+        {
+          "label": "Flat 20%",
+          "kind": "flat",
+          "rate": 0.2,
+          "floorMode": "none",
+          "floorShare": 0,
+          "volume": 3489821065,
+          "dollarDaysPer1k": 17871.063761087127,
+          "lossBps": 0,
+          "loss": 0,
+          "shortfallEvents": 0
+        },
+        {
+          "label": "Flat 25%",
+          "kind": "flat",
+          "rate": 0.25,
+          "floorMode": "none",
+          "floorShare": 0,
+          "volume": 3489821065,
+          "dollarDaysPer1k": 22338.829701358914,
+          "lossBps": 0,
+          "loss": 0,
+          "shortfallEvents": 0
+        }
+      ],
+      "thaw": [
+        {
+          "label": "Thaw, no floor",
+          "kind": "thaw",
+          "rate": 0.1,
+          "floorMode": "none",
+          "floorShare": 0,
+          "volume": 3489821065,
+          "dollarDaysPer1k": 2348.1392123475143,
+          "lossBps": 0.483171054436059,
+          "loss": 168618.05237692205,
+          "shortfallEvents": 37
+        },
+        {
+          "label": "Thaw, floor 10%",
+          "kind": "thaw",
+          "rate": 0.1,
+          "floorMode": "unproven_volume",
+          "floorShare": 0.1,
+          "volume": 3489821065,
+          "dollarDaysPer1k": 2368.5429852155476,
+          "lossBps": 0.47647557504832716,
+          "loss": 166281.44987616406,
+          "shortfallEvents": 37
+        },
+        {
+          "label": "Thaw, floor 20%",
+          "kind": "thaw",
+          "rate": 0.1,
+          "floorMode": "unproven_volume",
+          "floorShare": 0.2,
+          "volume": 3489821065,
+          "dollarDaysPer1k": 3042.2737935495848,
+          "lossBps": 0.3376697481193063,
+          "loss": 117840.69999999992,
+          "shortfallEvents": 22
+        },
+        {
+          "label": "Thaw, floor 30%",
+          "kind": "thaw",
+          "rate": 0.1,
+          "floorMode": "unproven_volume",
+          "floorShare": 0.3,
+          "volume": 3489821065,
+          "dollarDaysPer1k": 4269.625544891506,
+          "lossBps": 0.2346716306499227,
+          "loss": 81896.19999999998,
+          "shortfallEvents": 15
+        },
+        {
+          "label": "Thaw, floor 40%",
+          "kind": "thaw",
+          "rate": 0.1,
+          "floorMode": "unproven_volume",
+          "floorShare": 0.4,
+          "volume": 3489821065,
+          "dollarDaysPer1k": 5367.504453000891,
+          "lossBps": 0.21324904232589925,
+          "loss": 74420.09999999998,
+          "shortfallEvents": 12
+        },
+        {
+          "label": "Thaw, floor 50%",
+          "kind": "thaw",
+          "rate": 0.1,
+          "floorMode": "unproven_volume",
+          "floorShare": 0.5,
+          "volume": 3489821065,
+          "dollarDaysPer1k": 6275.576874562409,
+          "lossBps": 0.21324904232589925,
+          "loss": 74420.09999999998,
+          "shortfallEvents": 12
+        },
+        {
+          "label": "Thaw, floor 75%",
+          "kind": "thaw",
+          "rate": 0.1,
+          "floorMode": "unproven_volume",
+          "floorShare": 0.75,
+          "volume": 3489821065,
+          "dollarDaysPer1k": 7589.8674346099515,
+          "lossBps": 0.21324904232589925,
+          "loss": 74420.09999999998,
+          "shortfallEvents": 12
+        },
+        {
+          "label": "Thaw, floor 100%",
+          "kind": "thaw",
+          "rate": 0.1,
+          "floorMode": "unproven_volume",
+          "floorShare": 1,
+          "volume": 3489821065,
+          "dollarDaysPer1k": 8094.030733102265,
+          "lossBps": 0.21324904232589925,
+          "loss": 74420.09999999998,
+          "shortfallEvents": 12
+        }
+      ]
+    },
+    "release": {
+      "medianDaysThaw": 7,
+      "medianDaysFlat": 90,
+      "earlyReleaseShareThaw": 0.884914959527449,
+      "curve": [
+        {
+          "age": 0,
+          "thaw": 0.6875171053934721,
+          "flat": 1
+        },
+        {
+          "age": 1,
+          "thaw": 0.6757458571975004,
+          "flat": 1
+        },
+        {
+          "age": 2,
+          "thaw": 0.6542740935013549,
+          "flat": 1
+        },
+        {
+          "age": 3,
+          "thaw": 0.6208853702615198,
+          "flat": 1
+        },
+        {
+          "age": 4,
+          "thaw": 0.5824454750613283,
+          "flat": 1
+        },
+        {
+          "age": 5,
+          "thaw": 0.5470362412361341,
+          "flat": 1
+        },
+        {
+          "age": 6,
+          "thaw": 0.5183734406198475,
+          "flat": 1
+        },
+        {
+          "age": 7,
+          "thaw": 0.49518140873737326,
+          "flat": 1
+        },
+        {
+          "age": 8,
+          "thaw": 0.48400404681347897,
+          "flat": 1
+        },
+        {
+          "age": 9,
+          "thaw": 0.4741391275534119,
+          "flat": 1
+        },
+        {
+          "age": 10,
+          "thaw": 0.46467320887671437,
+          "flat": 1
+        },
+        {
+          "age": 11,
+          "thaw": 0.4552838043482488,
+          "flat": 1
+        },
+        {
+          "age": 12,
+          "thaw": 0.44589416335024623,
+          "flat": 1
+        },
+        {
+          "age": 13,
+          "thaw": 0.4364197223894797,
+          "flat": 1
+        },
+        {
+          "age": 14,
+          "thaw": 0.426867151378865,
+          "flat": 1
+        },
+        {
+          "age": 15,
+          "thaw": 0.41730440748068487,
+          "flat": 1
+        },
+        {
+          "age": 16,
+          "thaw": 0.4077973466491488,
+          "flat": 1
+        },
+        {
+          "age": 17,
+          "thaw": 0.3983127710962132,
+          "flat": 1
+        },
+        {
+          "age": 18,
+          "thaw": 0.38892699627895655,
+          "flat": 1
+        },
+        {
+          "age": 19,
+          "thaw": 0.37965573423517684,
+          "flat": 1
+        },
+        {
+          "age": 20,
+          "thaw": 0.37044214819020627,
+          "flat": 1
+        },
+        {
+          "age": 21,
+          "thaw": 0.3613286494643957,
+          "flat": 1
+        },
+        {
+          "age": 22,
+          "thaw": 0.35240652883169354,
+          "flat": 1
+        },
+        {
+          "age": 23,
+          "thaw": 0.34355460909921853,
+          "flat": 1
+        },
+        {
+          "age": 24,
+          "thaw": 0.3348818163159746,
+          "flat": 1
+        },
+        {
+          "age": 25,
+          "thaw": 0.3264259127243283,
+          "flat": 1
+        },
+        {
+          "age": 26,
+          "thaw": 0.31850928584700966,
+          "flat": 1
+        },
+        {
+          "age": 27,
+          "thaw": 0.31075257022668956,
+          "flat": 1
+        },
+        {
+          "age": 28,
+          "thaw": 0.3031618126574518,
+          "flat": 1
+        },
+        {
+          "age": 29,
+          "thaw": 0.29574226297351747,
+          "flat": 1
+        },
+        {
+          "age": 30,
+          "thaw": 0.28849857856254124,
+          "flat": 1
+        },
+        {
+          "age": 31,
+          "thaw": 0.2814340424986962,
+          "flat": 1
+        },
+        {
+          "age": 32,
+          "thaw": 0.27455195082926875,
+          "flat": 1
+        },
+        {
+          "age": 33,
+          "thaw": 0.2678540973807184,
+          "flat": 1
+        },
+        {
+          "age": 34,
+          "thaw": 0.2613419093183351,
+          "flat": 1
+        },
+        {
+          "age": 35,
+          "thaw": 0.25501598107920764,
+          "flat": 1
+        },
+        {
+          "age": 36,
+          "thaw": 0.24887652039636832,
+          "flat": 1
+        },
+        {
+          "age": 37,
+          "thaw": 0.2429231337970863,
+          "flat": 1
+        },
+        {
+          "age": 38,
+          "thaw": 0.2371551698244566,
+          "flat": 1
+        },
+        {
+          "age": 39,
+          "thaw": 0.2315713061237249,
+          "flat": 1
+        },
+        {
+          "age": 40,
+          "thaw": 0.2261700269911623,
+          "flat": 1
+        },
+        {
+          "age": 41,
+          "thaw": 0.22094943066945927,
+          "flat": 1
+        },
+        {
+          "age": 42,
+          "thaw": 0.21590705683625477,
+          "flat": 1
+        },
+        {
+          "age": 43,
+          "thaw": 0.2110400160000443,
+          "flat": 1
+        },
+        {
+          "age": 44,
+          "thaw": 0.2063455965009665,
+          "flat": 1
+        },
+        {
+          "age": 45,
+          "thaw": 0.20182079758945148,
+          "flat": 1
+        },
+        {
+          "age": 46,
+          "thaw": 0.19746222461339802,
+          "flat": 1
+        },
+        {
+          "age": 47,
+          "thaw": 0.19326654060402637,
+          "flat": 1
+        },
+        {
+          "age": 48,
+          "thaw": 0.18923022793383792,
+          "flat": 1
+        },
+        {
+          "age": 49,
+          "thaw": 0.18534968355294978,
+          "flat": 1
+        },
+        {
+          "age": 50,
+          "thaw": 0.18162097170504188,
+          "flat": 1
+        },
+        {
+          "age": 51,
+          "thaw": 0.17804029069802996,
+          "flat": 1
+        },
+        {
+          "age": 52,
+          "thaw": 0.1746036455111536,
+          "flat": 1
+        },
+        {
+          "age": 53,
+          "thaw": 0.17130708180780863,
+          "flat": 1
+        },
+        {
+          "age": 54,
+          "thaw": 0.16814650064662207,
+          "flat": 1
+        },
+        {
+          "age": 55,
+          "thaw": 0.1651178505811658,
+          "flat": 1
+        },
+        {
+          "age": 56,
+          "thaw": 0.16221717167364602,
+          "flat": 1
+        },
+        {
+          "age": 57,
+          "thaw": 0.159440455364263,
+          "flat": 1
+        },
+        {
+          "age": 58,
+          "thaw": 0.15678375744043105,
+          "flat": 1
+        },
+        {
+          "age": 59,
+          "thaw": 0.15424304982048487,
+          "flat": 1
+        },
+        {
+          "age": 60,
+          "thaw": 0.15181451205629581,
+          "flat": 1
+        },
+        {
+          "age": 61,
+          "thaw": 0.14949426143822186,
+          "flat": 1
+        },
+        {
+          "age": 62,
+          "thaw": 0.14727843328764867,
+          "flat": 1
+        },
+        {
+          "age": 63,
+          "thaw": 0.1451632600826822,
+          "flat": 1
+        },
+        {
+          "age": 64,
+          "thaw": 0.14314497587129948,
+          "flat": 1
+        },
+        {
+          "age": 65,
+          "thaw": 0.14122001000757622,
+          "flat": 1
+        },
+        {
+          "age": 66,
+          "thaw": 0.1393849531489958,
+          "flat": 1
+        },
+        {
+          "age": 67,
+          "thaw": 0.13763627080129415,
+          "flat": 1
+        },
+        {
+          "age": 68,
+          "thaw": 0.1359705780123015,
+          "flat": 1
+        },
+        {
+          "age": 69,
+          "thaw": 0.13438449877577263,
+          "flat": 1
+        },
+        {
+          "age": 70,
+          "thaw": 0.132874797499952,
+          "flat": 1
+        },
+        {
+          "age": 71,
+          "thaw": 0.1314383764482835,
+          "flat": 1
+        },
+        {
+          "age": 72,
+          "thaw": 0.1300722620883309,
+          "flat": 1
+        },
+        {
+          "age": 73,
+          "thaw": 0.12877349912687786,
+          "flat": 1
+        },
+        {
+          "age": 74,
+          "thaw": 0.12753918899493388,
+          "flat": 1
+        },
+        {
+          "age": 75,
+          "thaw": 0.1263665727151213,
+          "flat": 1
+        },
+        {
+          "age": 76,
+          "thaw": 0.12525292112769704,
+          "flat": 1
+        },
+        {
+          "age": 77,
+          "thaw": 0.1241956649260838,
+          "flat": 1
+        },
+        {
+          "age": 78,
+          "thaw": 0.12319236802498823,
+          "flat": 1
+        },
+        {
+          "age": 79,
+          "thaw": 0.12224061917256046,
+          "flat": 1
+        },
+        {
+          "age": 80,
+          "thaw": 0.1213380956389234,
+          "flat": 1
+        },
+        {
+          "age": 81,
+          "thaw": 0.12048253972516865,
+          "flat": 1
+        },
+        {
+          "age": 82,
+          "thaw": 0.11967177640562632,
+          "flat": 1
+        },
+        {
+          "age": 83,
+          "thaw": 0.11890371569630787,
+          "flat": 1
+        },
+        {
+          "age": 84,
+          "thaw": 0.11817633590302046,
+          "flat": 1
+        },
+        {
+          "age": 85,
+          "thaw": 0.11748774972242182,
+          "flat": 1
+        },
+        {
+          "age": 86,
+          "thaw": 0.11683605941851627,
+          "flat": 1
+        },
+        {
+          "age": 87,
+          "thaw": 0.11621950272750114,
+          "flat": 1
+        },
+        {
+          "age": 88,
+          "thaw": 0.11563637712582375,
+          "flat": 1
+        },
+        {
+          "age": 89,
+          "thaw": 0.11508504047255097,
+          "flat": 1
+        },
+        {
+          "age": 90,
+          "thaw": 0.009636687840861358,
+          "flat": 0
+        }
+      ]
+    },
+    "heldOverTime": [
+      {
+        "day": 0,
+        "control": 977644.5999999996,
+        "treatment": 976942.3659999997
+      },
+      {
+        "day": 7,
+        "control": 7866398.599999997,
+        "treatment": 7864194.412858662
+      },
+      {
+        "day": 14,
+        "control": 14551384.400000002,
+        "treatment": 14394247.135387251
+      },
+      {
+        "day": 21,
+        "control": 21365213.300000012,
+        "treatment": 20686629.05031394
+      },
+      {
+        "day": 28,
+        "control": 28129453.100000013,
+        "treatment": 26715107.03337516
+      },
+      {
+        "day": 35,
+        "control": 34846233.6,
+        "treatment": 31289930.26127789
+      },
+      {
+        "day": 42,
+        "control": 41738003.499999985,
+        "treatment": 35325072.08664803
+      },
+      {
+        "day": 49,
+        "control": 48510775.99999997,
+        "treatment": 37905063.47521099
+      },
+      {
+        "day": 56,
+        "control": 55435439.19999997,
+        "treatment": 39482100.50200184
+      },
+      {
+        "day": 63,
+        "control": 61987837.20000001,
+        "treatment": 39691734.20211141
+      },
+      {
+        "day": 70,
+        "control": 68690018.20000002,
+        "treatment": 40767701.5678355
+      },
+      {
+        "day": 77,
+        "control": 75681461.09999998,
+        "treatment": 42169645.98935708
+      },
+      {
+        "day": 84,
+        "control": 82319406.70000005,
+        "treatment": 42458058.04596994
+      },
+      {
+        "day": 91,
+        "control": 87068806.80000004,
+        "treatment": 42549525.1149881
+      },
+      {
+        "day": 98,
+        "control": 87147160.30000001,
+        "treatment": 42921075.27068569
+      },
+      {
+        "day": 105,
+        "control": 87284746.1,
+        "treatment": 42561373.86525465
+      },
+      {
+        "day": 112,
+        "control": 87377693.70000003,
+        "treatment": 42503206.84240295
+      },
+      {
+        "day": 119,
+        "control": 87499476.8999999,
+        "treatment": 42943274.697271496
+      },
+      {
+        "day": 126,
+        "control": 87553847.59999998,
+        "treatment": 42691163.55179371
+      },
+      {
+        "day": 133,
+        "control": 87558014.20000002,
+        "treatment": 42690012.234712295
+      },
+      {
+        "day": 140,
+        "control": 86959981.00000006,
+        "treatment": 41889782.49300256
+      },
+      {
+        "day": 147,
+        "control": 86515132.60000001,
+        "treatment": 41020716.236261025
+      },
+      {
+        "day": 154,
+        "control": 86292183.19999991,
+        "treatment": 41002488.11373643
+      },
+      {
+        "day": 161,
+        "control": 86357499.60000005,
+        "treatment": 40910248.36139565
+      },
+      {
+        "day": 168,
+        "control": 86183058.19999994,
+        "treatment": 40884364.42656706
+      },
+      {
+        "day": 175,
+        "control": 86295834.49999996,
+        "treatment": 41724291.87293585
+      },
+      {
+        "day": 182,
+        "control": 86291059.69999991,
+        "treatment": 41833482.7230509
+      },
+      {
+        "day": 189,
+        "control": 86229356.79999997,
+        "treatment": 41782119.05712209
+      },
+      {
+        "day": 196,
+        "control": 86268346.19999999,
+        "treatment": 41959883.75416698
+      },
+      {
+        "day": 203,
+        "control": 86286848.1,
+        "treatment": 41890391.28537843
+      },
+      {
+        "day": 210,
+        "control": 85388203.6000001,
+        "treatment": 40795808.03887366
+      },
+      {
+        "day": 217,
+        "control": 85666723.29999997,
+        "treatment": 41442565.899742484
+      },
+      {
+        "day": 224,
+        "control": 85675154.49999997,
+        "treatment": 40806342.43325831
+      },
+      {
+        "day": 231,
+        "control": 85586875.59999995,
+        "treatment": 40853840.417097636
+      },
+      {
+        "day": 238,
+        "control": 85656671.09999998,
+        "treatment": 40483864.21961898
+      },
+      {
+        "day": 245,
+        "control": 85606153.00000004,
+        "treatment": 40137811.59755884
+      },
+      {
+        "day": 252,
+        "control": 85637631.70000002,
+        "treatment": 40691062.65752309
+      },
+      {
+        "day": 259,
+        "control": 85714565.3,
+        "treatment": 41305671.89997539
+      },
+      {
+        "day": 266,
+        "control": 85553146.59999998,
+        "treatment": 41128774.47839823
+      },
+      {
+        "day": 273,
+        "control": 85450039.80000007,
+        "treatment": 41427320.14424595
+      },
+      {
+        "day": 280,
+        "control": 85444259.09999996,
+        "treatment": 42081286.750004165
+      },
+      {
+        "day": 287,
+        "control": 84173449.00000003,
+        "treatment": 41091594.55249047
+      },
+      {
+        "day": 294,
+        "control": 83977738.70000006,
+        "treatment": 40459470.17535545
+      },
+      {
+        "day": 301,
+        "control": 84004749.50000007,
+        "treatment": 40662817.74440309
+      },
+      {
+        "day": 308,
+        "control": 83768866.70000002,
+        "treatment": 40399216.825513825
+      },
+      {
+        "day": 315,
+        "control": 83727533,
+        "treatment": 40673876.51420108
+      },
+      {
+        "day": 322,
+        "control": 83668996.99999996,
+        "treatment": 40704462.07875492
+      },
+      {
+        "day": 329,
+        "control": 83331473.50000004,
+        "treatment": 40347861.103514895
+      },
+      {
+        "day": 336,
+        "control": 83331128.00000001,
+        "treatment": 40105717.9619235
+      },
+      {
+        "day": 343,
+        "control": 83320495,
+        "treatment": 40454719.02473457
+      },
+      {
+        "day": 350,
+        "control": 83281488.5,
+        "treatment": 40063849.726976804
+      },
+      {
+        "day": 357,
+        "control": 83346177.39999999,
+        "treatment": 40161476.37722796
+      },
+      {
+        "day": 364,
+        "control": 83226920.60000002,
+        "treatment": 40375350.53681619
+      }
+    ],
+    "cuts": [
+      {
+        "dimension": "Merchant age",
+        "rows": [
+          {
+            "segment": "Established",
+            "merchants": 181,
+            "volume": 2287942601,
+            "control": {
+              "dollarDaysPer1k": 8995.782250963908,
+              "lossBps": 0
+            },
+            "treatment": {
+              "dollarDaysPer1k": 4308.788644137764,
+              "lossBps": 0
+            }
+          },
+          {
+            "segment": "New",
+            "merchants": 119,
+            "volume": 1201878464,
+            "control": {
+              "dollarDaysPer1k": 8820.836931478621,
+              "lossBps": 0.6191982153696364
+            },
+            "treatment": {
+              "dollarDaysPer1k": 4195.073145596082,
+              "lossBps": 0.681401676234711
+            }
+          }
+        ]
+      },
+      {
+        "dimension": "Category",
+        "rows": [
+          {
+            "segment": "Physical",
+            "merchants": 149,
+            "volume": 2025352667,
+            "control": {
+              "dollarDaysPer1k": 8941.067649775387,
+              "lossBps": 0.10764100670078501
+            },
+            "treatment": {
+              "dollarDaysPer1k": 3838.730336020852,
+              "lossBps": 0.14455359047847235
+            }
+          },
+          {
+            "segment": "Subscription",
+            "merchants": 72,
+            "volume": 666420164,
+            "control": {
+              "dollarDaysPer1k": 8955.902112829828,
+              "lossBps": 0
+            },
+            "treatment": {
+              "dollarDaysPer1k": 3924.233466807201,
+              "lossBps": 0
+            }
+          },
+          {
+            "segment": "Service",
+            "merchants": 27,
+            "volume": 429987903,
+            "control": {
+              "dollarDaysPer1k": 8838.643858778509,
+              "lossBps": 1.223732101133087
+            },
+            "treatment": {
+              "dollarDaysPer1k": 7177.872051349224,
+              "lossBps": 1.223732101133087
+            }
+          },
+          {
+            "segment": "Digital",
+            "merchants": 52,
+            "volume": 368060331,
+            "control": {
+              "dollarDaysPer1k": 8981.376698267437,
+              "lossBps": 0
+            },
+            "treatment": {
+              "dollarDaysPer1k": 3868.550507783304,
+              "lossBps": 0
+            }
+          }
+        ]
+      },
+      {
+        "dimension": "Region",
+        "rows": [
+          {
+            "segment": "US",
+            "merchants": 153,
+            "volume": 1620302150,
+            "control": {
+              "dollarDaysPer1k": 8952.045283899672,
+              "lossBps": 0.32474807245056114
+            },
+            "treatment": {
+              "dollarDaysPer1k": 4479.426563508177,
+              "lossBps": 0.32474807245056114
+            }
+          },
+          {
+            "segment": "EU",
+            "merchants": 82,
+            "volume": 908000162,
+            "control": {
+              "dollarDaysPer1k": 8861.738298676646,
+              "lossBps": 0.2401001774270606
+            },
+            "treatment": {
+              "dollarDaysPer1k": 4379.078050180888,
+              "lossBps": 0.32243606582087786
+            }
+          },
+          {
+            "segment": "UK",
+            "merchants": 37,
+            "volume": 635132183,
+            "control": {
+              "dollarDaysPer1k": 8967.577937394488,
+              "lossBps": 0
+            },
+            "treatment": {
+              "dollarDaysPer1k": 3479.3863395693415,
+              "lossBps": 0
+            }
+          },
+          {
+            "segment": "APAC",
+            "merchants": 28,
+            "volume": 326386570,
+            "control": {
+              "dollarDaysPer1k": 8996.48536672327,
+              "lossBps": 0
+            },
+            "treatment": {
+              "dollarDaysPer1k": 4461.368782052309,
+              "lossBps": 0
+            }
+          }
+        ]
+      },
+      {
+        "dimension": "Proof coverage",
+        "rows": [
+          {
+            "segment": "50 to 80%",
+            "merchants": 163,
+            "volume": 1917643477,
+            "control": {
+              "dollarDaysPer1k": 8981.07479813882,
+              "lossBps": 0
+            },
+            "treatment": {
+              "dollarDaysPer1k": 4075.957888896549,
+              "lossBps": 0.03898587036468197
+            }
+          },
+          {
+            "segment": "Under 50%",
+            "merchants": 74,
+            "volume": 839674015,
+            "control": {
+              "dollarDaysPer1k": 8855.70509931762,
+              "lossBps": 0.8862975234502163
+            },
+            "treatment": {
+              "dollarDaysPer1k": 6274.708298329675,
+              "lossBps": 0.8862975234502163
+            }
+          },
+          {
+            "segment": "80% and up",
+            "merchants": 63,
+            "volume": 732503573,
+            "control": {
+              "dollarDaysPer1k": 8907.809688185642,
+              "lossBps": 0
+            },
+            "treatment": {
+              "dollarDaysPer1k": 2478.1935066998335,
+              "lossBps": 0
+            }
+          }
+        ]
+      }
+    ],
+    "verdict": {
+      "dollarDaysCut": 0.5221744377423924,
+      "lossDeltaBps": 0.02142258832402344,
+      "marginBps": 0.5,
+      "guardrailPass": true,
+      "bestAtControlLoss": {
+        "label": "Thaw, floor 40%",
+        "kind": "thaw",
+        "rate": 0.1,
+        "floorMode": "unproven_volume",
+        "floorShare": 0.4,
+        "volume": 3489821065,
+        "dollarDaysPer1k": 5367.504453000891,
+        "lossBps": 0.21324904232589925,
+        "loss": 74420.09999999998,
+        "shortfallEvents": 12
+      }
+    },
+    "elapsedMs": 2071
+  },
+  "base": [
+    {
+      "seed": 1,
+      "cut": 0.5061296665662578,
+      "cutNoFloor": 0.7195683974250524,
+      "controlLossBps": 0.21302558398956795,
+      "thawLossBps": 0.22863090623458926,
+      "noFloorLossBps": 0.4068989111438936,
+      "lossDeltaBps": 0.015605322245021314,
+      "pass": true,
+      "medianDaysThaw": 11,
+      "earlyReleaseShare": 0.8830321535006859,
+      "killCaught": 9,
+      "killFailingTotal": 14,
+      "killHealthy": 4,
+      "merchants": 300
+    },
+    {
+      "seed": 2,
+      "cut": 0.4834654938070636,
+      "cutNoFloor": 0.7175061214594881,
+      "controlLossBps": 0.9653898048394158,
+      "thawLossBps": 0.9653898048394158,
+      "noFloorLossBps": 1.5814894381907738,
+      "lossDeltaBps": 0,
+      "pass": true,
+      "medianDaysThaw": 10,
+      "earlyReleaseShare": 0.8698056493717486,
+      "killCaught": 13,
+      "killFailingTotal": 20,
+      "killHealthy": 4,
+      "merchants": 300
+    },
+    {
+      "seed": 3,
+      "cut": 0.510960954915795,
+      "cutNoFloor": 0.7252319570766923,
+      "controlLossBps": 0,
+      "thawLossBps": 0,
+      "noFloorLossBps": 0.10820697439010087,
+      "lossDeltaBps": 0,
+      "pass": true,
+      "medianDaysThaw": 9,
+      "earlyReleaseShare": 0.8812906708831161,
+      "killCaught": 11,
+      "killFailingTotal": 14,
+      "killHealthy": 5,
+      "merchants": 300
+    },
+    {
+      "seed": 4,
+      "cut": 0.5139446880465726,
+      "cutNoFloor": 0.7457470415467928,
+      "controlLossBps": 0.022582594422748285,
+      "thawLossBps": 0.08812569811102043,
+      "noFloorLossBps": 0.4235170663257446,
+      "lossDeltaBps": 0.06554310368827215,
+      "pass": true,
+      "medianDaysThaw": 7,
+      "earlyReleaseShare": 0.8956906886502917,
+      "killCaught": 8,
+      "killFailingTotal": 16,
+      "killHealthy": 0,
+      "merchants": 300
+    },
+    {
+      "seed": 5,
+      "cut": 0.49978845821294515,
+      "cutNoFloor": 0.725729024326946,
+      "controlLossBps": 0.007907124908198674,
+      "thawLossBps": 0.007907124908198674,
+      "noFloorLossBps": 1.6473845132854905,
+      "lossDeltaBps": 0,
+      "pass": true,
+      "medianDaysThaw": 9,
+      "earlyReleaseShare": 0.8807112992770874,
+      "killCaught": 8,
+      "killFailingTotal": 16,
+      "killHealthy": 1,
+      "merchants": 300
+    },
+    {
+      "seed": 6,
+      "cut": 0.4942167551287512,
+      "cutNoFloor": 0.7284266882662664,
+      "controlLossBps": 0.16407337340688588,
+      "thawLossBps": 0.16407337340688588,
+      "noFloorLossBps": 0.29119907447426047,
+      "lossDeltaBps": 0,
+      "pass": true,
+      "medianDaysThaw": 10,
+      "earlyReleaseShare": 0.8883415489244475,
+      "killCaught": 7,
+      "killFailingTotal": 12,
+      "killHealthy": 0,
+      "merchants": 300
+    }
+  ],
+  "stress": [
+    {
+      "seed": 1,
+      "cut": 0.5033857146582339,
+      "cutNoFloor": 0.7248394365143562,
+      "controlLossBps": 0.6501390617265437,
+      "thawLossBps": 0.7005955747772048,
+      "noFloorLossBps": 1.4500639132476676,
+      "lossDeltaBps": 0.05045651305066112,
+      "pass": true,
+      "medianDaysThaw": 9,
+      "earlyReleaseShare": 0.8754603663942284,
+      "killCaught": 28,
+      "killFailingTotal": 43,
+      "killHealthy": 2,
+      "merchants": 300
+    },
+    {
+      "seed": 2,
+      "cut": 0.5026550283746165,
+      "cutNoFloor": 0.7177393275149397,
+      "controlLossBps": 0.0915336308802552,
+      "thawLossBps": 0.0915336308802552,
+      "noFloorLossBps": 0.21855224784822477,
+      "lossDeltaBps": 0,
+      "pass": true,
+      "medianDaysThaw": 11,
+      "earlyReleaseShare": 0.8704120458497685,
+      "killCaught": 29,
+      "killFailingTotal": 36,
+      "killHealthy": 2,
+      "merchants": 300
+    },
+    {
+      "seed": 3,
+      "cut": 0.4924976358515665,
+      "cutNoFloor": 0.7261030402176119,
+      "controlLossBps": 0.6027583318590616,
+      "thawLossBps": 0.6027583318590616,
+      "noFloorLossBps": 1.5060626033472135,
+      "lossDeltaBps": 0,
+      "pass": true,
+      "medianDaysThaw": 9,
+      "earlyReleaseShare": 0.8728415448467322,
+      "killCaught": 30,
+      "killFailingTotal": 41,
+      "killHealthy": 2,
+      "merchants": 300
+    },
+    {
+      "seed": 4,
+      "cut": 0.508930918881215,
+      "cutNoFloor": 0.7271827926925836,
+      "controlLossBps": 1.2110229110116943,
+      "thawLossBps": 1.3342516190668772,
+      "noFloorLossBps": 1.6259892757024297,
+      "lossDeltaBps": 0.12322870805518282,
+      "pass": true,
+      "medianDaysThaw": 9,
+      "earlyReleaseShare": 0.8808006405367846,
+      "killCaught": 26,
+      "killFailingTotal": 31,
+      "killHealthy": 4,
+      "merchants": 300
+    },
+    {
+      "seed": 5,
+      "cut": 0.47891894627192577,
+      "cutNoFloor": 0.7225801813424858,
+      "controlLossBps": 0.34766326907786155,
+      "thawLossBps": 0.34766326907786155,
+      "noFloorLossBps": 1.1934764858545017,
+      "lossDeltaBps": 0,
+      "pass": true,
+      "medianDaysThaw": 10,
+      "earlyReleaseShare": 0.8745200883277191,
+      "killCaught": 26,
+      "killFailingTotal": 39,
+      "killHealthy": 2,
+      "merchants": 300
+    },
+    {
+      "seed": 6,
+      "cut": 0.48209122924691394,
+      "cutNoFloor": 0.7220880136770453,
+      "controlLossBps": 0.22691929492696972,
+      "thawLossBps": 0.2996759519564143,
+      "noFloorLossBps": 0.8972084458698846,
+      "lossDeltaBps": 0.07275665702944456,
+      "pass": true,
+      "medianDaysThaw": 11,
+      "earlyReleaseShare": 0.8827776690602969,
+      "killCaught": 20,
+      "killFailingTotal": 27,
+      "killHealthy": 0,
+      "merchants": 300
+    }
+  ],
+  "adversarial": [
+    {
+      "seed": 1,
+      "cut": 0.503504996431314,
+      "cutNoFloor": 0.7311354261093483,
+      "controlLossBps": 2.0332125226645,
+      "thawLossBps": 2.1705635941399075,
+      "noFloorLossBps": 2.28290533767367,
+      "lossDeltaBps": 0.1373510714754076,
+      "pass": true,
+      "medianDaysThaw": 9,
+      "earlyReleaseShare": 0.8862255332143754,
+      "killCaught": 18,
+      "killFailingTotal": 21,
+      "killHealthy": 1,
+      "merchants": 300
+    },
+    {
+      "seed": 2,
+      "cut": 0.5295168191353704,
+      "cutNoFloor": 0.7284694704635648,
+      "controlLossBps": 3.0166272291786376,
+      "thawLossBps": 3.145832957864169,
+      "noFloorLossBps": 3.28860374135869,
+      "lossDeltaBps": 0.12920572868553126,
+      "pass": true,
+      "medianDaysThaw": 10,
+      "earlyReleaseShare": 0.8849120826824455,
+      "killCaught": 27,
+      "killFailingTotal": 30,
+      "killHealthy": 1,
+      "merchants": 300
+    },
+    {
+      "seed": 3,
+      "cut": 0.5325463076888513,
+      "cutNoFloor": 0.7315655333055515,
+      "controlLossBps": 2.7469056534003986,
+      "thawLossBps": 3.119176023092784,
+      "noFloorLossBps": 3.562694392752668,
+      "lossDeltaBps": 0.37227036969238547,
+      "pass": true,
+      "medianDaysThaw": 10,
+      "earlyReleaseShare": 0.8845118861990127,
+      "killCaught": 30,
+      "killFailingTotal": 37,
+      "killHealthy": 2,
+      "merchants": 300
+    },
+    {
+      "seed": 4,
+      "cut": 0.52807082745326,
+      "cutNoFloor": 0.7250065257385097,
+      "controlLossBps": 2.6690381703838306,
+      "thawLossBps": 3.1102409454051725,
+      "noFloorLossBps": 3.160448453335109,
+      "lossDeltaBps": 0.44120277502134186,
+      "pass": true,
+      "medianDaysThaw": 10,
+      "earlyReleaseShare": 0.8754563786991333,
+      "killCaught": 24,
+      "killFailingTotal": 28,
+      "killHealthy": 1,
+      "merchants": 300
+    },
+    {
+      "seed": 5,
+      "cut": 0.5298234689356154,
+      "cutNoFloor": 0.7318884044679644,
+      "controlLossBps": 0.8820200361020625,
+      "thawLossBps": 1.6567297616031038,
+      "noFloorLossBps": 1.8958869021733686,
+      "lossDeltaBps": 0.7747097255010413,
+      "pass": false,
+      "medianDaysThaw": 9,
+      "earlyReleaseShare": 0.8896771545455047,
+      "killCaught": 20,
+      "killFailingTotal": 28,
+      "killHealthy": 2,
+      "merchants": 300
+    },
+    {
+      "seed": 6,
+      "cut": 0.5428760011387987,
+      "cutNoFloor": 0.7374099529662945,
+      "controlLossBps": 1.4406158758574497,
+      "thawLossBps": 1.8834191697487415,
+      "noFloorLossBps": 1.9291118532844402,
+      "lossDeltaBps": 0.4428032938912918,
+      "pass": true,
+      "medianDaysThaw": 9,
+      "earlyReleaseShare": 0.8935948119993102,
+      "killCaught": 18,
+      "killFailingTotal": 21,
+      "killHealthy": 1,
+      "merchants": 300
+    }
+  ],
+  "adversarialNewFlat": [
+    {
+      "seed": 1,
+      "cut": 0.3442292788589367,
+      "cutNoFloor": 0.5011689903605048,
+      "controlLossBps": 2.0332125226645,
+      "thawLossBps": 2.104897476213057,
+      "noFloorLossBps": 2.104897476213057,
+      "lossDeltaBps": 0.07168495354855686,
+      "pass": true,
+      "medianDaysThaw": 35,
+      "earlyReleaseShare": 0.6036109493930536,
+      "killCaught": 6,
+      "killFailingTotal": 21,
+      "killHealthy": 1,
+      "merchants": 300
+    },
+    {
+      "seed": 2,
+      "cut": 0.3551013576914086,
+      "cutNoFloor": 0.48010254434491584,
+      "controlLossBps": 3.0166272291786376,
+      "thawLossBps": 3.145832957864169,
+      "noFloorLossBps": 3.196645423444496,
+      "lossDeltaBps": 0.12920572868553126,
+      "pass": true,
+      "medianDaysThaw": 40,
+      "earlyReleaseShare": 0.5803553335686786,
+      "killCaught": 7,
+      "killFailingTotal": 30,
+      "killHealthy": 1,
+      "merchants": 300
+    },
+    {
+      "seed": 3,
+      "cut": 0.3633664727322903,
+      "cutNoFloor": 0.5030707123254607,
+      "controlLossBps": 2.7469056534003986,
+      "thawLossBps": 2.991008340078669,
+      "noFloorLossBps": 3.185366809644407,
+      "lossDeltaBps": 0.2441026866782705,
+      "pass": true,
+      "medianDaysThaw": 35,
+      "earlyReleaseShare": 0.6023324076234466,
+      "killCaught": 7,
+      "killFailingTotal": 37,
+      "killHealthy": 1,
+      "merchants": 300
+    },
+    {
+      "seed": 4,
+      "cut": 0.3588293225262914,
+      "cutNoFloor": 0.47514170551130486,
+      "controlLossBps": 2.6690381703838306,
+      "thawLossBps": 3.1102409454051725,
+      "noFloorLossBps": 3.160448453335109,
+      "lossDeltaBps": 0.44120277502134186,
+      "pass": true,
+      "medianDaysThaw": 42,
+      "earlyReleaseShare": 0.5692180444200405,
+      "killCaught": 5,
+      "killFailingTotal": 28,
+      "killHealthy": 1,
+      "merchants": 300
+    },
+    {
+      "seed": 5,
+      "cut": 0.37486810913210544,
+      "cutNoFloor": 0.5157961408035678,
+      "controlLossBps": 0.8820200361020625,
+      "thawLossBps": 0.9168722346377062,
+      "noFloorLossBps": 1.0827177185117376,
+      "lossDeltaBps": 0.0348521985356437,
+      "pass": true,
+      "medianDaysThaw": 31,
+      "earlyReleaseShare": 0.6259082233770024,
+      "killCaught": 9,
+      "killFailingTotal": 28,
+      "killHealthy": 2,
+      "merchants": 300
+    },
+    {
+      "seed": 6,
+      "cut": 0.39630801872539967,
+      "cutNoFloor": 0.522949828398406,
+      "controlLossBps": 1.4406158758574497,
+      "thawLossBps": 1.5728447905177771,
+      "noFloorLossBps": 1.576548065426385,
+      "lossDeltaBps": 0.1322289146603275,
+      "pass": true,
+      "medianDaysThaw": 31,
+      "earlyReleaseShare": 0.6281238412930091,
+      "killCaught": 6,
+      "killFailingTotal": 21,
+      "killHealthy": 1,
+      "merchants": 300
+    }
+  ]
+}
